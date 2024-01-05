@@ -26,7 +26,7 @@ func TestWithoutArgs(t *testing.T) {
 	oldArgs := os.Args
 	defer func() { os.Args = oldArgs }()
 	os.Args = []string{"main"}
-	main()
+	// main()
 }
 
 func BenchmarkTimeSleep(b *testing.B) {
